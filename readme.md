@@ -1,4 +1,4 @@
-# Project : MappingTest
+# Project : Mapping
 
 ## Frameworks and languages used
 * SpringBoot
@@ -7,10 +7,10 @@
 ## Data flow in the project
 Here we have 5 models namely:
 Student, 
-Laptop(one to one -> student), 
-Book(many to one -> student), 
-Course(many to many -> student), 
-Address(extension of student only)
+Laptop,
+Book,
+Course, 
+Address
 1. Controller : All models has all the Crud operations : Create(PostMapping), Read(GetMapping), Update(PutMapping), Delete(DeleteMapping).
    these layer interact with the client and service layer.
 2. Services : All the operations linked with controller is been implemented with additional logics in service layer, 
@@ -23,7 +23,6 @@ Address(extension of student only)
 
 ## Data Structure Used in Project
 * ArrayList
-* JSONObject and JSONArray
 * String Array
 
 ## Project Summary
